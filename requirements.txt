@@ -1,3 +1,5 @@
 aiohttp
+aiohttp_cors
 asyncio
 boto3
+
