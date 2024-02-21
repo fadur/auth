@@ -5,8 +5,11 @@ import hmac
 import hashlib
 import base64
 
-ClientId = os.environ.get('CLIENT_ID')
-client_secret = os.environ.get('CLIENT_SECRET')
+#ClientId = os.environ.get('CLIENT_ID')
+ClientId = "1z2x3c4v5b6n7m81z2x3c4v5b6n7m8"
+
+# client_secret = os.environ.get('CLIENT_SECRET')
+client_secret = "1z2x3c4v5b6n7m8"
 
 
 def secret_hash(username):
